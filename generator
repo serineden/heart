@@ -1,0 +1,16 @@
+import random
+
+x = input("Doresti sa auzi o gluma? Da/ Nu => ")
+
+while x == "Da":
+    i = random.randint(0, 2)
+    if i == 0:
+        print("Pot")
+    if i == 1:
+        print("Nu pot")
+    if i == 2:
+        print("Normal ca pot")
+    x = input("Doresti sa mai auzi si alte glume? Da/ Nu => ")
+    if x == "Nu":
+        print("Ok, sper ca ti-a placut!")
+
