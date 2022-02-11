@@ -1,0 +1,13 @@
+from turtle import *
+import turtle
+
+turtle.speed(0)
+def fleur():
+    for i in range(190):
+        circle(190-i, 90)
+        left(90)
+        circle(190-i, 90)
+        left(18)
+
+fleur()
+mainloop()
