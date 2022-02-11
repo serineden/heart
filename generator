@@ -3,14 +3,15 @@ import random
 x = input("Doresti sa auzi o gluma? Da/ Nu => ")
 
 while x == "Da":
-    i = random.randint(0, 2)
+    i = random.randint(0, 3)
     if i == 0:
-        print("Pot")
+        print("\nDoar pentru ca sunt programator, nu inseamna ca pot sa iti repar imprimanta. Bine, pot sa iti repar imprimanta, dar nu pentru ca sunt programator!\n")
     if i == 1:
-        print("Nu pot")
+        print("\nVă vorbește pilotul avionului… Astăzi lucrez de acasă.\n")
     if i == 2:
-        print("Normal ca pot")
+        print("\nMama mi-a zis: urmează-ți visele. Așa că m-am întors în pat.\n")
+    if i == 3:
+        print("\nMi-ar plăcea să-mi pot lăsa corpul la sală să facă sport și să-l ridic când e gata.\n")
     x = input("Doresti sa mai auzi si alte glume? Da/ Nu => ")
     if x == "Nu":
         print("Ok, sper ca ti-a placut!")
-
